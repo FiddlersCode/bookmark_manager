@@ -1,6 +1,5 @@
-require './app/models/link'
-
 ENV['RACK_ENV'] = 'test'
+require './app/models/link'
 
 # require our Sinatra app file
 require File.join(File.dirname(__FILE__), '..', 'app/app.rb')
